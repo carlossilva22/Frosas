@@ -1,0 +1,29 @@
+footer {
+  width: 100%;
+  padding: 1% 0;
+  background-color: var(--black);
+}
+
+h1 {
+  font-size: 1.3rem;
+
+  font-weight: 200;
+}
+
+h5 {
+  font-size: 0.9rem;
+  font-weight: 100;
+}
+
+p {
+  font-style: italic;
+  font-weight: 100;
+  font-size: 0.7rem;
+}
+h1,
+h5,
+p {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}

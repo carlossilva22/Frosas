@@ -1,0 +1,66 @@
+.about {
+  padding: 4% 0;
+  text-align: center;
+  background-color: var(--fundo);
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-style: italic;
+}
+h1,
+h2 {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  padding: 0 10%;
+}
+
+.empresa {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3%;
+}
+
+.empresa img {
+  height: 250px;
+}
+
+.text {
+  padding: 4% 0 0 1%;
+  text-align: justify;
+}
+
+p {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+  margin: 1% 15%;
+}
+
+.box-1 {
+  margin: 0 auto;
+  padding: 3%;
+  width: 30%;
+  height: 30%;
+  background-color: aquamarine;
+}
+
+.box a img {
+  width: 20%;
+}
+
+.circo {
+  border-radius: 50%;
+}

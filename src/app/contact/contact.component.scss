@@ -1,0 +1,72 @@
+.fundo {
+  background-color: var(--black-ligh);
+  padding: 5%;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formulario {
+  width: 30%;
+  height: 40%;
+  background-color: var(--gray);
+  padding: 2% 2%;
+  display: inline-block;
+}
+
+input,
+textarea {
+  width: 100%;
+  border: 0;
+  padding: 1%;
+}
+.button {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 1%;
+}
+
+button {
+  width: 20%;
+  background-color: var(--black-ligh);
+  color: white;
+  border: 1px solid var(--black-ligh);
+}
+
+button:hover {
+  background-color: white;
+  color: var(--black-ligh);
+  border: 1px solid var(--black-ligh);
+}
+
+label,
+button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  padding: 1% 0;
+}
+h1,
+a {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+  padding: 2% 0;
+  text-decoration: none;
+}
+a:hover {
+  color: var(--gray);
+}
+
+span {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+img {
+  width: 4%;
+  padding-right: 2%;
+}
